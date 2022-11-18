@@ -1,0 +1,5 @@
+docker build -t skill
+
+docker run -p 5000:5000 skill
+
+docker ps -a
